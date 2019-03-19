@@ -1,3 +1,9 @@
+/*
+Find a duplicate, Space Edition
+
+https://www.interviewcake.com/question/python/find-duplicate-optimize-for-space
+ */
+
 fun findDuplicateWithSpace(numbers: Array<Int>): Int? {
     val seenInts = mutableSetOf<Int>()
 
